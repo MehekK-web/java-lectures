@@ -1,3 +1,4 @@
+//Write a program in java, write two methods with same name with different parameters will be used.
 class A
 {
     void add(int a, int b)

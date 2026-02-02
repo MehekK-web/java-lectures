@@ -1,3 +1,4 @@
+//Create a program where child class will be inheriting the properties of parent class.
 class Parent
 {
     void display1()

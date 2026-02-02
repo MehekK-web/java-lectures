@@ -1,3 +1,4 @@
+//Write a program in java where you should be passing two variables inside a function with float data types and performing their addition inside the  main function using double data types.
 class AddNumbers
 {
     static double add(float a, float b)
