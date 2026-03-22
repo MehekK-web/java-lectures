@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Animal {
     void sound() {
         System.out.println("Animal makes a sound");
@@ -26,4 +27,34 @@ public class TestPolymorphism {
         a = new Cat();
         a.sound(); 
     }
+=======
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+class Cat extends Animal {
+   
+    void sound() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class TestPolymorphism {
+    public static void main(String[] args) {
+        Animal a;
+        a = new Dog();
+        a.sound();
+
+        a = new Cat();
+        a.sound(); 
+    }
+>>>>>>> 550528f2f4bf291b1e48435bfbe6e10fdbe50033
 }

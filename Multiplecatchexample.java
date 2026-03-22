@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Multiplecatchexample {
  public static void main(String[]args){
   try{
@@ -11,3 +12,18 @@ public class Multiplecatchexample {
   System.out.println("pgm continues after exception handling");
  }  
 }
+=======
+public class Multiplecatchexample {
+ public static void main(String[]args){
+  try{
+    String str=null;
+    System.out.println(str.length());
+  }catch(NullPointerException e){
+    System.out.println("error:Null pointer exception");
+  }catch(Exception e){
+    System.out.println("error");
+  }
+  System.out.println("pgm continues after exception handling");
+ }  
+}
+>>>>>>> 550528f2f4bf291b1e48435bfbe6e10fdbe50033
