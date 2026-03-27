@@ -50,8 +50,6 @@ public class smartHome {
     public static void main(String[] args) {
 
         smarttv t = new smarttv("samsung");
-
-        // polymorphism (upcasting)
         device d = t;
         remoteControlled r = t;
         powerSaving p = t;
